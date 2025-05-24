@@ -23,7 +23,7 @@ class DocumentController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'documents.*' => 'required|mimes:pdf,doc,docx,jpg,jpeg,png|max:2048',
+            'documents.*' => 'required|mimes:pdf,doc,docx,jpg,jpeg,png|max:51200',
         ]);
 
         foreach ($request->file('documents') as $file) {
