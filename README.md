@@ -1,4 +1,4 @@
-# 📘 Assignment for Inext
+### Assignment for Inext
 
 A Laravel-based web application for document uploads, user registration/login, and database management.
 
@@ -14,17 +14,20 @@ A Laravel-based web application for document uploads, user registration/login, a
 
 ---
 
-## 📦 Clone & Install
+### Clone
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Dhiru5153/assignment_for_inext.git
 cd assignment_for_inext
+```
+
+## Setup .env file
+```
 cp .env.example .env
 php artisan key:generate
 ```
-
 ## Edit .env file for your database
 ```
 DB_CONNECTION=mysql
